@@ -1,0 +1,175 @@
+
+/*header*/
+body {
+ color: #555;
+ margin: 10;
+ padding: 10px;
+ background-color: #000;
+ font-family: 'Montserrat',sans-serif;
+}
+
+#content {
+  background-color: black;
+}
+
+#header {
+  background-color: #DF4C2C;
+  border-radius: 1em;
+  height: 150px;
+  line-height:150px;
+
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+}
+
+#header a:hover {
+  color: #222;
+}
+
+
+
+#header-title {
+  letter-spacing: 0.001em;
+  display: block;
+  font-family: 'Kokonor', cursive;
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;
+
+
+}
+
+#header-nav{
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+
+}
+
+.container{
+  max-width: 1000;
+  margin: auto;
+}
+
+
+/*footer*/
+#footer {
+  border-radius: 1em;
+  background-color: #DF4C2C;
+  padding: 50px 0;
+}
+
+.column{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p{
+  color: white;
+}
+
+a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #F6A623;
+}
+
+/*content*/
+
+
+.post{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-author img {
+  width: 100px;
+  height: 70px;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+.about-author img {
+  width: 300px;
+  height: 150px;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+
+.post-author span{
+  margin-left: 16px;
+}
+
+.post-date{
+  color: #D2D2D2;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h4 {
+  color: #333;
+}
+
+h3 {
+  color: white;
+}
+p{
+  line-height: 1.5;
+
+}
+
+.post, .about{
+  max-width: 800px;
+  margin:0 auto;
+  padding: 100px 0;
+}
+
+.about{
+  text-align: center;
+}
+
+.post-container:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+svg {
+	background: white;
+	border: 1px dotted #3983ab;
+	width: 95%;
+	height: 400px;
+	padding: 0;
+}
+.axis {
+	stroke: #999;
+	marker-end: url(#markerArrow);
+}
+
+.Koordinatensystem{
+  margin: 40px;
+}
